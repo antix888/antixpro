@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="antix-demo-github:war exploded">
+    <output-path>$PROJECT_DIR$/antix-demo-github/target/api</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="antix-demo-github" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/antix-demo-github/target/api/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="antix-demo-github/web/Web" />
+    </root>
+  </artifact>
+</component>

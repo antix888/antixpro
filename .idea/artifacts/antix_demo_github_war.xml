@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="antix-demo-github:war">
+    <output-path>$PROJECT_DIR$/antix-demo-github/target</output-path>
+    <root id="archive" name="api.war">
+      <element id="artifact" artifact-name="antix-demo-github:war exploded" />
+    </root>
+  </artifact>
+</component>
